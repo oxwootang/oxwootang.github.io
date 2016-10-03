@@ -1,3 +1,48 @@
 body {
-  background: yellow;
+  background-image: http://media.mercola.com/assets/images/food-facts/apple.jpg;
+}
+
+body ul {
+  padding: 20px;
+  border: 8px solid blue;
+}
+
+li {
+  margin: 10px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color:yellow;
+}
+
+footer {
+  margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    font-weight: bold;
+  }
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 12px;
+}
+
+.disclaimer {
+  font-family: Times;
+  font-size: 7px;
+}
+
+#red-footer {
+  border: 10px dashed red;
 }
