@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Put your JavaScript behavior here
   $(".tabs li").on("click", function(e) {
-    debugger;
+//  debugger;
     e.preventDefault();
     $(this).siblings().removeClass("active");
     $(this).addClass("active");
