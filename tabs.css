@@ -110,3 +110,11 @@ h2 {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.cool-link {
+  display: inline-block;
+}
+
+.cool-link p {
+  text-align: center;
+}
