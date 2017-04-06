@@ -113,13 +113,9 @@ h2 {
 
 .cool-link a {
   display: inline-block;
-  margin-left: 28.5%;
+  margin-left: 32%;
 }
 
 .cool-link p {
-  text-align: center;
-}
-
-#external h2 {
   text-align: center;
 }
