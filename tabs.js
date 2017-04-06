@@ -9,6 +9,7 @@ $(document).ready(function () {
     var tabHref = $(this).children().attr('href');
     $(tabHref).show();
     console.log($(tabHref).siblings());
-    $(tabHref).siblings().not(".tabs").not("h1").hide();
+    $(tabHref).siblings().not(".tabs").not("h1").not("img").not("p").hide();
   });
+
 });
