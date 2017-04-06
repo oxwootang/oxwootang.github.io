@@ -4,7 +4,7 @@
 .tabs {
     float: left;
     border-bottom: 1px solid #ccc;
-    width: 100%;
+    width: 75%;
     margin-bottom: 16px;
     list-style: none;
 }
@@ -46,9 +46,18 @@
     border-bottom: none;
 }
 
-.container {
+.center, .left-col, .right-col {
+    display: inline-block;
+}
+
+.center {
     margin: 20px auto;
-    width: 600px;
+    width: 70%;
+}
+
+.left-col, .right-col {
+    width: 15%;
+    margin: 20px auto;
 }
 
 p {
@@ -64,6 +73,7 @@ h1, h2, h3 {
 }
 
 h1 {
+    text-align: center;
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 16px;
