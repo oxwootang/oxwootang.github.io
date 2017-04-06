@@ -1,0 +1,112 @@
+.tab-content {
+    display: none;
+}
+.tabs {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 16px;
+    list-style: none;
+}
+.tabs li {
+    float: left;
+    margin-right: 16px;
+    padding: 10px 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.tabs li a {
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+/*
+  To get the "tab" effect, we have to cover up the grey border of the ul element
+  To do this, we make the list item one pixel taller, give it a negative 1px bottom margin,
+  and give it a 1px white bottom border.  This keeps the list item the same overall height,
+  but "nudges" it down 1px so its white border covers the ul's grey border
+
+  We also have to juggle with the margin to compensate for the new borders on the top, left, and right.
+  */
+
+  .tabs li.active {
+    border: 1px solid #ccc;
+    border-bottom: 1px solid white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-bottom: -1px;
+    height: 31px;
+    padding: 9px 14px;
+}
+
+.tabs li.active a {
+    color: black;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.container {
+    margin: 20px auto;
+    width: 600px;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+#mission {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+#woojae {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.parallax-1 {
+  background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXebnSEr5z4jD3ayVw2XHJ4yaR3LcDsery4gCtT_6VPvv3pllJ');
+
+  /* Full height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.parallax-2 {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/50/a9/b3/50a9b38cf4451280c4ed37dffca077d9.jpg');
+  /* Full height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
