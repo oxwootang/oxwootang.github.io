@@ -111,10 +111,15 @@ h2 {
   background-size: contain;
 }
 
-.cool-link {
+.cool-link a {
   display: inline-block;
+  margin-left: 28.5%;
 }
 
 .cool-link p {
+  text-align: center;
+}
+
+#external h2 {
   text-align: center;
 }
