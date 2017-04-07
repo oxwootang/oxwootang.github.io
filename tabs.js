@@ -12,9 +12,15 @@ $(document).ready(function () {
     $(tabHref).siblings().not(".tabs").not("h1").not("img").not("p").hide();
   });
 
-  $("strong").on("click", function(e) {
+  $("#external-strong").on("click", function(e) {
     $(".active").removeClass("active");
     $("#external").show();
     $("#external").siblings().not(".tabs").not("h1").not("img").not("p").hide();
+  });
+
+  $(".mission-strong").on("click", function(e) {
+    $(".active").removeClass("active");
+    $("#ideals").show();
+    $("#ideals").siblings().not(".tabs").not("h1").not("img").not("p").hide();
   });
 });
