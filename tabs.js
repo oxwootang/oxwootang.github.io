@@ -9,7 +9,7 @@ $(document).ready(function () {
     var tabHref = $(this).children().attr('href');
     $(tabHref).show();
     console.log($(tabHref).siblings());
-    $(tabHref).siblings().not(".tabs").not("h1").not("img").not("p").hide();
+    $(tabHref).siblings().not(".tabs").not("h1").not("img").not("p").not(".parallax-1").hide();
   });
 
   $("#external-strong").on("click", function(e) {

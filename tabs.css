@@ -3,8 +3,13 @@
     background-size: contain;
 }
 */
+body {
+  background-color: #F9F5FF;
+}
+
 .tab-content {
     display: none;
+    margin: 20px;
 }
 .tabs {
     float: left;
@@ -54,6 +59,22 @@
 .container {
     margin: 20px auto;
     width: 600px;
+/*    background-color: #FAF0CA;*/
+}
+
+.left-panel {
+  width: 250px;
+  margin: 20px;
+  margin-top: 300px;
+  vertical-align: top;
+}
+
+.left-panel h2 {
+  text-align: center;
+}
+
+.container, .left-panel {
+  display: inline-block;
 }
 
 p {
