@@ -1,36 +1,3 @@
-/*body {
-    background-image: url("img/background.jpg");
-    background-size: cover;
-    opacity: 50%;
-}*/
-#background-img {
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: absolute;
-}
-
-#background-img::after {
-  content: "";
-  background: url("img/background.jpg");
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-#background {
-  width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  opacity: 0.13;
-  position: absolute;
-}
-
-
-
 body {
   background-color: #F9F5FF;
 }
@@ -94,21 +61,6 @@ body {
 /*    background-color: #FAF0CA;*/
 }
 
-/*.left-panel {
-  width: 250px;
-  margin: 20px;
-  margin-top: 300px;
-  vertical-align: top;
-}
-*/
-/*.left-panel h2 {
-  text-align: center;
-}
-*/
-/*.container {
-  display: inline-block;
-}
-*/
 p {
     font-family: Georgia, serif;
     font-size: 14px;
