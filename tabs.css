@@ -109,18 +109,11 @@ h2 {
     opacity: 1.0;
 }
 
-.parallax-1 {
-  background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTXebnSEr5z4jD3ayVw2XHJ4yaR3LcDsery4gCtT_6VPvv3pllJ');
-
-  /* Full height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+.roadmap, .alexapi {
+  width: 600px;
   background-size: contain;
 }
+
 .parallax-2 {
   background-image: url('https://s-media-cache-ak0.pinimg.com/736x/50/a9/b3/50a9b38cf4451280c4ed37dffca077d9.jpg');
   /* Full height */
